@@ -1,0 +1,19 @@
+[33mcommit 1b7b29f80e26fb021be33e4ad82abffa2724e27b[m[33m ([m[1;31morigin/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: chinmoybuzz <chinmoybuzz@gmail.com>
+Date:   Thu Oct 24 21:03:34 2024 +0530
+
+    readme.md updated
+
+[33mcommit 91ab480692e3e24070d2b5ad4b778d82c8f689af[m
+Merge: b234405 787049d
+Author: chinmoybuzz <chinmoybuzz@gmail.com>
+Date:   Thu Oct 24 21:00:42 2024 +0530
+
+    resolve merge conflict
+
+[33mcommit 518fdf36f0a617882a5b4462a3a8ae0207b1a27f[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 787049d b234405
+Author: chinmoybuzz <chinmoybuzz@gmail.com>
+Date:   Thu Oct 24 20:56:44 2024 +0530
+
+    Resolve merge conflict
