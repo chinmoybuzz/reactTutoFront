@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Editer() {
+const Editer = () => {
   return (
    <section>
     <h1>Editor page</h1>
@@ -12,3 +13,4 @@ export default function Editer() {
    </section>
   )
 }
+export default Editer;

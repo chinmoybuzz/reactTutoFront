@@ -1,6 +1,7 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-export default function Mission() {
+const Missing=()=> {
     return (
         <article style={{ padding: "100px" }}>
             <h1>Oops!</h1>
@@ -11,3 +12,4 @@ export default function Mission() {
         </article>
     )
 }
+export default Missing;

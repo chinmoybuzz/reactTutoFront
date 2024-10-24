@@ -1,6 +1,6 @@
 import {useNavigate} from 'react-router-dom'
 
-export default function Unauthorized() {
+const Unauthorized = () => {
     const navigate=useNavigate();
     const goBack=()=>navigate(-1)
   return (
@@ -14,3 +14,5 @@ export default function Unauthorized() {
         </section>
   )
 }
+
+export default Unauthorized;

@@ -2,8 +2,11 @@ import { useLocation,Navigate,Outlet } from "react-router-dom";
 import useAuth from "../hooks/useAuth";
 
 const RequireAuth = ({children}) => {
-    const {auth}=useAuth();
+    
+    const { auth }=useAuth();
     const location=useLocation();
+    const allowedRoles = ['admin', 'editor']; 
+
     return(
         auth?.roles?.find(role=>allowedRoles?.includes(role))
         ?<Outlet/>
